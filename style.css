@@ -1,0 +1,166 @@
+    /* Aumentar el espacio entre los nav-links en móvil */
+    @media (max-width: 992px) {
+        .navbar-nav .nav-link {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
+
+    /* Efecto de difuminado más redondeado y sutil */
+    .nav-link:hover {
+        background-color: rgba(200, 230, 201, 0.5); /* Color relacionado al fondo */
+        border-radius: 20px; /* Más redondeado */
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* Espaciado adicional para versión de PC */
+    @media (max-width: 767px) {
+        .navbar-nav {
+            padding-top: 15px; /* Ajusta este valor según lo que necesites */
+            padding-bottom: 15px; /* Si también quieres algo de separación abajo */
+        }
+    }
+
+    body {
+        background-color: #e8f5e9;
+        color: #2e7d32;
+    }
+    .navbar {
+        background-color: #2a5934;
+        padding: 10px 15px;
+    }
+    .navbar-brand {
+        color: #ffffff !important;
+        transition: color 0.3s ease;
+        margin-left: 15px;
+    }
+    .navbar-brand:hover {
+        color: #c8e6c9 !important;
+    }
+    .nav-item {
+        margin: 0 15px;
+    }
+    .nav-link {
+        color: #ffffff !important;
+        font-size: 1.1rem;
+        padding: 10px 15px;
+        border-radius: 30px;
+        transition: background-color all 0.3s ease-in-out;
+    }
+    .nav-link:hover {
+        background-color: #c8e6c9;
+        color: #2a5934 !important;
+        border-radius: 30px;
+    }
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28200,230,201, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .jumbotron {
+        background-image: url('ruta_a_imagen_de_selva.jpg');
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    .jumbotron h1 {
+        font-size: 3rem;
+    }
+    .content img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    footer {
+        background-color: #1b5e20;
+        color: #ffffff;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .btn-primary {
+        background-color: #2e7d32;
+        border-color: #2e7d32;
+    }
+    .btn-primary:hover {
+        background-color: #1b5e20;
+        border-color: #1b5e20;
+    }
+    /* Header Estilo */
+.header {
+    background-color: #1b5e20; /* Verde oscuro */
+    padding: 60px 0; /* Espaciado para que el contenido se vea bien */
+    color: white; /* Texto blanco */
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Estilo para que sea responsivo */
+@media (max-width: 767px) {
+    .header h1 {
+        font-size: 2rem; /* Tamaño más pequeño en móviles */
+    }
+
+    .header p {
+        font-size: 1.2rem; /* Tamaño más pequeño en móviles */
+    }
+}
+/* Footer Estilo */
+.footer {
+    background-color: #2e7d32; /* Verde claro */
+    padding: 40px 0; /* Aumento del alto del pie de página */
+    color: white; /* Texto blanco */
+}
+
+.footer p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.footer p:first-child {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.footer .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Estilo en móvil */
+@media (max-width: 767px) {
+    .footer p {
+        font-size: 1rem;
+    }
+}
+/* Personalización de la barra de desplazamiento en PC */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color de fondo de la pista */
+    border-radius: 10px; /* Bordes redondeados en la pista */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2e7d32; /* Color de la parte que se mueve de la barra */
+    border-radius: 10px; /* Bordes redondeados en la parte movil */
+    border: 3px solid #ffffff; /* Un borde blanco para resaltar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #1b5e20; /* Color cuando se pasa el mouse sobre la barra */
+}
